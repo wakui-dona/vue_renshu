@@ -1,9 +1,4 @@
-const app = new Vue({
+new Vue({
   el: '#app',
-  data: {
-    // 使用するデータ
-  },
-  methods: {
-    // 使用するメソッド
-  }
-})
+  template: '<div>Hello World!</div>'
+});
